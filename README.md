@@ -2,7 +2,7 @@
 
 <div align="center">    
  
-# Differentiable Physics Simulations with Contacts: Do They Have Correct Gradients w.r.t. Position, Velocity and Control?
+## Differentiable Physics Simulations with Contacts: Do They Have Correct Gradients w.r.t. Position, Velocity and Control?
 
 Yaofeng Desmond Zhong, Jiequn Han, Georgia Olympia Brikis | 2022 
 
@@ -52,3 +52,16 @@ Our results show that gradients calculated by different implementation do not ag
 In this tasks, we are able to derive the analytical gradients and the analytical optimal control. Here we plot the analytical optimal loss along with the learning curves as well as the analytical optimal control and learned optimal controls. We observe that some differentiable simulators learn zero control sequences and fail to achieve the optimization task. 
 
 <img src="./task3_two_balls/figures/two_balls_loss_ctrls.png" alt="drawing">
+
+
+## Citation
+If you find this work helpful, please consider citing our paper using the following Bibtex.
+```bibtex
+@inproceedings{
+zhong2022differentiable,
+title={Differentiable Physics Simulations with Contacts: Do They Have Correct Gradients w.r.t. Position, Velocity and Control?},
+author={Yaofeng Desmond Zhong and Jiequn Han and Georgia Olympia Brikis},
+booktitle={ICML 2022 2nd AI for Science Workshop},
+year={2022},
+}
+```

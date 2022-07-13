@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as follows."
+authors:
+- family-names: "Zhong"
+  given-names: "Yaofeng Desmond"
+- family-names: "Han"
+  given-names: "Jiequn"
+- family-names: "Brikis"
+  given-names: "Georgia Olympia"
+title: "Differentiable Physics Simulations with Contacts: Do They Have Correct Gradients w.r.t. Position, Velocity and Control?"
+version: 0.0.1
+date-released: 2022-07-13
+url: "https://github.com/DesmondZhong/diff_sim_grads"
+preferred-citation:
+  type: conference-paper
+  authors:
+  - family-names: "Zhong"
+    given-names: "Yaofeng Desmond"
+  - family-names: "Han"
+    given-names: "Jiequn"
+  - family-names: "Brikis"
+    given-names: "Georgia Olympia"
+  booktitle: "ICML 2022 2nd AI for Science Workshop"
+  title: "Differentiable Physics Simulations with Contacts: Do They Have Correct Gradients w.r.t. Position, Velocity and Control?"
+  year: 2022
