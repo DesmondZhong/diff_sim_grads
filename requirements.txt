@@ -1,0 +1,9 @@
+nimblephysics==0.7.2
+cvxpylayers
+torchdiffeq
+omegaconf
+warp-lang==0.2.0
+taichi==1.0.1
+brax==0.0.13
+usd-core
+notebook

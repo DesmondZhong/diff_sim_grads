@@ -1,0 +1,9 @@
+python bounce_once_convexopt_diffcosim.py
+python bounce_once_convexopt_diffcosim.py toi=False
+python bounce_once_lcp_nimble.py
+python bounce_once_pbd_brax.py
+python bounce_once_pbd_warp.py
+python bounce_once_soft_brax.py
+python bounce_once_soft_warp.py
+python bounce_once_specialized_difftaichi.py
+python bounce_once_specialized_difftaichi.py toi=False

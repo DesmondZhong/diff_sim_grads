@@ -1,0 +1,19 @@
+simulation_time: 1.0
+steps: 480
+brax_substeps: 2
+radius: 0.1
+init_pos:
+  - -1.
+  - 1.
+init_vel:
+  - 2.
+  - -2.
+ctrl_input:
+  - 0.
+  - 0.
+elasticity: 1.0
+customized_kn: 1.e+4 # for soft model
+method: symplectic_euler # for intergration in diffcosim
+toi: True
+result_dir: results
+render_difftaichi: False
