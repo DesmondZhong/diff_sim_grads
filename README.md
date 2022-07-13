@@ -6,13 +6,13 @@
 
 Yaofeng Desmond Zhong, Jiequn Han, Georgia Olympia Brikis | 2022 
 
-[![Conference](http://img.shields.io/badge/ICML-2022-AI4Science-Workshop-4b44ce.svg)](https://openreview.net/forum?id=KIl0LZ9tJex)
+[![Conference](http://img.shields.io/badge/ICML-AI4Science-4b44ce.svg)](https://openreview.net/forum?id=KIl0LZ9tJex)
 [![Paper](http://img.shields.io/badge/arXiv-2207.05060-B31B1B.svg)](https://arxiv.org/abs/2207.05060)
 
 
 </div>
 
-This repository contains scripts to reproduce results in our paper. 
+This repository contains scripts to reproduce results in our ![paper](https://arxiv.org/abs/2207.05060). 
 
 ## Reproducibility
 
@@ -36,13 +36,11 @@ In this work, we compare the gradients calculated by different differentiable co
 | Direct Velocity Impulse                | [DiffTaichi](https://github.com/taichi-dev/difftaichi) |
 
 
-We apply these implementations to three tasks
+We apply these implementations to three tasks.
 
-| Task 1. Gradients with a Simple Collision   |   Task 2. Optimize the Initial Velocity of a Bouncing
-Ball to Hit a Target  | Task 3.  Learning Optimal Control with a Two-ball
-Collision |
+| Task 1. Gradients with a Simple Collision   |   Task 2. Optimize the Initial Velocity of a Bouncing Ball to Hit a Target  | Task 3.  Learning Optimal Control with a Two-ball Collision |
 | :---------:|:------:|:------------------------:|
-| <img src="./task1_bounce_once/figures/bounce_once_traj.png" alt="drawing" width="200"/> | <img src="./task2_bounce_ground_wall/figures/ground_wall_init_traj.png" alt="drawing" width="200"/> | <img src="./task3_two_balls/figures/two_balls_traj.png" alt="drawing" width="200"/> |
+| <img src="./task1_bounce_once/figures/bounce_once_traj.png" alt="drawing" width="250"/> | <img src="./task2_bounce_ground_wall/figures/ground_wall_init_traj.png" alt="drawing" width="250"/> | <img src="./task3_two_balls/figures/two_balls_traj.png" alt="drawing" width="200"/> |
 
 Our results show that gradients calculated by different implementation do not agree. Some implementations fail to achieve the optimization tasks. Please check out our paper for more details. 
 
@@ -51,4 +49,4 @@ Our results show that gradients calculated by different implementation do not ag
 
 In this tasks, we are able to derive the analytical gradients and the analytical optimal control. Here we plot the analytical optimal loss along with the learning curves as well as the analytical optimal control and learned optimal controls. We observe that some differentiable simulators learn zero control sequences and fail to achieve the optimization task. 
 
-<img src="./task1_bounce_once/figures/bounce_once_traj.png" alt="drawing">
+<img src="./task3_two_balls/figures/two_balls_loss_ctrls.png" alt="drawing">
