@@ -47,7 +47,7 @@ We apply these implementations to three tasks.
 Our results show that gradients calculated by different implementation do not agree. Some implementations fail to achieve the optimization tasks. Please check out our paper for more details. 
 
 
-## Tasks 3 Results
+## Task 3 Results
 
 In this tasks, we are able to derive the analytical gradients and the analytical optimal control. Here we plot the analytical optimal loss along with the learning curves as well as the analytical optimal control and learned optimal controls. We observe that some differentiable simulators learn zero control sequences and fail to achieve the optimization task. 
 
