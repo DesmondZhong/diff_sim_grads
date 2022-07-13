@@ -12,7 +12,7 @@ Yaofeng Desmond Zhong, Jiequn Han, Georgia Olympia Brikis | 2022
 
 </div>
 
-This repository contains scripts to reproduce results in our ![paper](https://arxiv.org/abs/2207.05060). 
+This repository contains scripts to reproduce results in our [paper](https://arxiv.org/abs/2207.05060). 
 
 ## Reproducibility
 
