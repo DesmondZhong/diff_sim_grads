@@ -23,6 +23,8 @@ To install all dependencies:
 pip install -r requirements.txt
 ```
 
+Please check out the README files in the task folders for how to reproduce the results shown in the paper. 
+
 ## Overview
 
 In this work, we compare the gradients calculated by different differentiable contact models as shown in the following table. 

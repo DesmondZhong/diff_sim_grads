@@ -1,0 +1,2 @@
+- You can get all the gradient results by running `bash get_all_grads.sh`. 
+- You can also refer to `get_all_grads.sh` for how to run the experiments individually. 
