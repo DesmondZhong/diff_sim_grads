@@ -57,11 +57,10 @@ In this tasks, we are able to derive the analytical gradients and the analytical
 ## Citation
 If you find this work helpful, please consider citing our paper using the following Bibtex.
 ```bibtex
-@inproceedings{
-zhong2022differentiable,
-title={Differentiable Physics Simulations with Contacts: Do They Have Correct Gradients w.r.t. Position, Velocity and Control?},
-author={Yaofeng Desmond Zhong and Jiequn Han and Georgia Olympia Brikis},
-booktitle={ICML 2022 2nd AI for Science Workshop},
-year={2022},
+@article{zhong2022differentiable,
+  title={Differentiable Physics Simulations with Contacts: Do They Have Correct Gradients w.r.t. Position, Velocity and Control?},
+  author={Zhong, Yaofeng Desmond and Han, Jiequn and Brikis, Georgia Olympia},
+  journal={arXiv preprint arXiv:2207.05060},
+  year={2022}
 }
 ```
