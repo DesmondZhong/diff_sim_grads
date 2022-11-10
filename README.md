@@ -21,6 +21,8 @@ All experiments __do not__ require GPUs.
 To install all dependencies:
 ```bash
 pip install -r requirements.txt
+# or to install the exact versions of packages as done in this work. 
+pip install -r requirements_freeze.txt
 ```
 
 Please check out the README files in the task folders for how to reproduce the results shown in the paper. 
